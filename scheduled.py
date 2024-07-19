@@ -26,7 +26,7 @@ if __name__ == "__main__":
   logging.debug("authorized slack client")
 
   # # For testing
-  msg = "Good Morning!"
+  msg = "Scheduled test message - later to be used to remind people to document updates on SFDC!"
   schedule.every(60).seconds.do(lambda: sendMessage(slack_client, msg))
 
   # schedule.every().monday.at("13:15").do(lambda: sendMessage(slack_client, msg))

@@ -28,7 +28,7 @@ def command():
 
   # # send channel a response
   # response = slack_client.chat_postMessage(
-  #   channel='#{}'.format(info["channel_name"]), 
+  #   channel='#{}'.format(info["channel_name"]),  
   #   text=commander.getMessage()
   # )
 
